@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60" started-at="2017-10-01T20:06:07Z" finished-at="2017-10-01T20:06:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="60" started-at="2017-10-01T20:06:07Z" finished-at="2017-10-01T20:06:07Z">
+      <class name="BasketTest">
+        <test-method status="PASS" signature="start()[pri:0, instance:BasketTest@6cc4c815]" name="start" is-config="true" duration-ms="12" started-at="2017-10-01T23:06:07Z" finished-at="2017-10-01T23:06:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="findSomeProductsTest(Basket, java.lang.String, int)[pri:0, instance:BasketTest@6cc4c815]" name="findSomeProductsTest" duration-ms="7" started-at="2017-10-01T23:06:07Z" data-provider="findSomeProductsProvider" finished-at="2017-10-01T23:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is green basket of size: 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[milk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findSomeProductsTest -->
+        <test-method status="PASS" signature="findSomeProductsTest(Basket, java.lang.String, int)[pri:0, instance:BasketTest@6cc4c815]" name="findSomeProductsTest" duration-ms="1" started-at="2017-10-01T23:06:07Z" data-provider="findSomeProductsProvider" finished-at="2017-10-01T23:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is blue basket of size: 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cucumber]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findSomeProductsTest -->
+        <test-method status="PASS" signature="getAmountOfProductsTest(Basket, int)[pri:0, instance:BasketTest@6cc4c815]" name="getAmountOfProductsTest" duration-ms="2" started-at="2017-10-01T23:06:07Z" data-provider="getAmountOfProductProvider" finished-at="2017-10-01T23:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is green basket of size: 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAmountOfProductsTest -->
+        <test-method status="PASS" signature="getAmountOfProductsTest(Basket, int)[pri:0, instance:BasketTest@6cc4c815]" name="getAmountOfProductsTest" duration-ms="1" started-at="2017-10-01T23:06:07Z" data-provider="getAmountOfProductProvider" finished-at="2017-10-01T23:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is blue basket of size: 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAmountOfProductsTest -->
+        <test-method status="PASS" signature="getAmountOfProductsTest(Basket, int)[pri:0, instance:BasketTest@6cc4c815]" name="getAmountOfProductsTest" duration-ms="1" started-at="2017-10-01T23:06:07Z" data-provider="getAmountOfProductProvider" finished-at="2017-10-01T23:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is white basket of size: 3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAmountOfProductsTest -->
+        <test-method status="PASS" signature="removeProductTest(Basket, java.lang.String, boolean)[pri:0, instance:BasketTest@6cc4c815]" name="removeProductTest" duration-ms="3" started-at="2017-10-01T23:06:07Z" data-provider="removeProductProvider" finished-at="2017-10-01T23:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is green basket of size: 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[milk]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductTest -->
+        <test-method status="PASS" signature="removeProductTest(Basket, java.lang.String, boolean)[pri:0, instance:BasketTest@6cc4c815]" name="removeProductTest" duration-ms="3" started-at="2017-10-01T23:06:07Z" data-provider="removeProductProvider" finished-at="2017-10-01T23:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is blue basket of size: 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cucumber]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductTest -->
+        <test-method status="PASS" signature="toStringTest(Basket, java.lang.String)[pri:0, instance:BasketTest@6cc4c815]" name="toStringTest" duration-ms="2" started-at="2017-10-01T23:06:07Z" data-provider="toStringProvider" finished-at="2017-10-01T23:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is green basket of size: 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is green basket of size: 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toStringTest -->
+        <test-method status="PASS" signature="toStringTest(Basket, java.lang.String)[pri:0, instance:BasketTest@6cc4c815]" name="toStringTest" duration-ms="1" started-at="2017-10-01T23:06:07Z" data-provider="toStringProvider" finished-at="2017-10-01T23:06:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[This is blue basket of size: 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This is blue basket of size: 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toStringTest -->
+      </class> <!-- BasketTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="32" passed="32">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="147" started-at="2017-09-17T11:04:33Z" finished-at="2017-09-17T11:04:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="147" started-at="2017-09-17T11:04:33Z" finished-at="2017-09-17T11:04:33Z">
+      <class name="Test1234">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test1234@643b1d11]" name="setup" is-config="true" duration-ms="16" started-at="2017-09-17T14:04:33Z" finished-at="2017-09-17T14:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="MassTest()[pri:0, instance:Test1234@643b1d11]" name="MassTest" duration-ms="16" started-at="2017-09-17T14:04:33Z" finished-at="2017-09-17T14:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MassTest -->
+        <test-method status="PASS" signature="arraytest()[pri:0, instance:Test1234@643b1d11]" name="arraytest" duration-ms="0" started-at="2017-09-17T14:04:33Z" finished-at="2017-09-17T14:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arraytest -->
+        <test-method status="PASS" signature="begintest()[pri:0, instance:Test1234@643b1d11]" name="begintest" duration-ms="0" started-at="2017-09-17T14:04:33Z" finished-at="2017-09-17T14:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- begintest -->
+        <test-method status="PASS" signature="casetest(char, int, int, char)[pri:0, instance:Test1234@643b1d11]" name="casetest" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="caseprovider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casetest -->
+        <test-method status="PASS" signature="boolean_test(int, int, boolean)[pri:0, instance:Test1234@643b1d11]" name="boolean_test" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="boolean_task_data_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boolean_test -->
+        <test-method status="PASS" signature="boolean_test(int, int, boolean)[pri:0, instance:Test1234@643b1d11]" name="boolean_test" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="boolean_task_data_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boolean_test -->
+        <test-method status="PASS" signature="for_test()[pri:0, instance:Test1234@643b1d11]" name="for_test" duration-ms="0" started-at="2017-09-17T14:04:33Z" finished-at="2017-09-17T14:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- for_test -->
+        <test-method status="PASS" signature="casetest(char, int, int, char)[pri:0, instance:Test1234@643b1d11]" name="casetest" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="caseprovider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Z]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casetest -->
+        <test-method status="PASS" signature="boolean_test(int, int, boolean)[pri:0, instance:Test1234@643b1d11]" name="boolean_test" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="boolean_task_data_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- boolean_test -->
+        <test-method status="PASS" signature="if_test(int, int, int)[pri:0, instance:Test1234@643b1d11]" name="if_test" duration-ms="2" started-at="2017-09-17T14:04:33Z" data-provider="if_task_data_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- if_test -->
+        <test-method status="PASS" signature="if_test(int, int, int)[pri:0, instance:Test1234@643b1d11]" name="if_test" duration-ms="1" started-at="2017-09-17T14:04:33Z" data-provider="if_task_data_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- if_test -->
+        <test-method status="PASS" signature="if_test(int, int, int)[pri:0, instance:Test1234@643b1d11]" name="if_test" duration-ms="1" started-at="2017-09-17T14:04:33Z" data-provider="if_task_data_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- if_test -->
+        <test-method status="PASS" signature="matrixtest()[pri:0, instance:Test1234@643b1d11]" name="matrixtest" duration-ms="0" started-at="2017-09-17T14:04:33Z" finished-at="2017-09-17T14:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- matrixtest -->
+        <test-method status="PASS" signature="integertest()[pri:0, instance:Test1234@643b1d11]" name="integertest" duration-ms="0" started-at="2017-09-17T14:04:33Z" finished-at="2017-09-17T14:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integertest -->
+        <test-method status="PASS" signature="negative_begin_test(double, double)[pri:0, instance:Test1234@643b1d11]" name="negative_begin_test" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="begintaskprovider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wrong input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wrong input
+	at Variant11.begintask(Variant11.java:137)
+	at Test1234.negative_begin_test(Test1234.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_begin_test -->
+        <test-method status="PASS" signature="negative_begin_test(double, double)[pri:0, instance:Test1234@643b1d11]" name="negative_begin_test" duration-ms="16" started-at="2017-09-17T14:04:33Z" data-provider="begintaskprovider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wrong input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wrong input
+	at Variant11.begintask(Variant11.java:137)
+	at Test1234.negative_begin_test(Test1234.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_begin_test -->
+        <test-method status="PASS" signature="negative_case_test(char, int, int)[pri:0, instance:Test1234@643b1d11]" name="negative_case_test" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="case_negative_test_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wron input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wron input
+	at Variant11.casetask(Variant11.java:191)
+	at Test1234.negative_case_test(Test1234.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_case_test -->
+        <test-method status="PASS" signature="negative_case_test(char, int, int)[pri:0, instance:Test1234@643b1d11]" name="negative_case_test" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="case_negative_test_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wron input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wron input
+	at Variant11.casetask(Variant11.java:191)
+	at Test1234.negative_case_test(Test1234.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_case_test -->
+        <test-method status="PASS" signature="negative_begin_test(double, double)[pri:0, instance:Test1234@643b1d11]" name="negative_begin_test" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="begintaskprovider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wrong input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wrong input
+	at Variant11.begintask(Variant11.java:137)
+	at Test1234.negative_begin_test(Test1234.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_begin_test -->
+        <test-method status="PASS" signature="negative_case_test(char, int, int)[pri:0, instance:Test1234@643b1d11]" name="negative_case_test" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="case_negative_test_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wron input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wron input
+	at Variant11.casetask(Variant11.java:191)
+	at Test1234.negative_case_test(Test1234.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_case_test -->
+        <test-method status="PASS" signature="negative_integer_task(int)[pri:0, instance:Test1234@643b1d11]" name="negative_integer_task" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="integer_negative_result_test" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wron input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wron input
+	at Variant11.integerNumbersTask(Variant11.java:149)
+	at Test1234.negative_integer_task(Test1234.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_integer_task -->
+        <test-method status="PASS" signature="negative_for_test(int)[pri:0, instance:Test1234@643b1d11]" name="negative_for_test" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="negative_for_test_data_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wron input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wron input
+	at Variant11.fortask(Variant11.java:222)
+	at Test1234.negative_for_test(Test1234.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_for_test -->
+        <test-method status="PASS" signature="negative_for_test(int)[pri:0, instance:Test1234@643b1d11]" name="negative_for_test" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="negative_for_test_data_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1000]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wron input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wron input
+	at Variant11.fortask(Variant11.java:222)
+	at Test1234.negative_for_test(Test1234.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_for_test -->
+        <test-method status="PASS" signature="negative_for_test(int)[pri:0, instance:Test1234@643b1d11]" name="negative_for_test" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="negative_for_test_data_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wron input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wron input
+	at Variant11.fortask(Variant11.java:222)
+	at Test1234.negative_for_test(Test1234.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_for_test -->
+        <test-method status="PASS" signature="negative_matrix_test([[I, int, int)[pri:0, instance:Test1234@643b1d11]" name="negative_matrix_test" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="negative_matrix_test_data_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[I@43814d18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wron input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wron input
+	at Variant11.matrixtask(Variant11.java:276)
+	at Test1234.negative_matrix_test(Test1234.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_matrix_test -->
+        <test-method status="PASS" signature="negative_matrix_test([[I, int, int)[pri:0, instance:Test1234@643b1d11]" name="negative_matrix_test" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="negative_matrix_test_data_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[[I@43814d18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wron input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wron input
+	at Variant11.matrixtask(Variant11.java:276)
+	at Test1234.negative_matrix_test(Test1234.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_matrix_test -->
+        <test-method status="PASS" signature="negative_integer_task(int)[pri:0, instance:Test1234@643b1d11]" name="negative_integer_task" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="integer_negative_result_test" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wron input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wron input
+	at Variant11.integerNumbersTask(Variant11.java:149)
+	at Test1234.negative_integer_task(Test1234.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_integer_task -->
+        <test-method status="PASS" signature="negative_integer_task(int)[pri:0, instance:Test1234@643b1d11]" name="negative_integer_task" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="integer_negative_result_test" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wron input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wron input
+	at Variant11.integerNumbersTask(Variant11.java:149)
+	at Test1234.negative_integer_task(Test1234.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_integer_task -->
+        <test-method status="PASS" signature="negative_while_task(int)[pri:0, instance:Test1234@643b1d11]" name="negative_while_task" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="negative_while_task_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wron input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wron input
+	at Variant11.whiletask(Variant11.java:238)
+	at Test1234.negative_while_task(Test1234.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_while_task -->
+        <test-method status="PASS" signature="negative_while_task(int)[pri:0, instance:Test1234@643b1d11]" name="negative_while_task" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="negative_while_task_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wron input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wron input
+	at Variant11.whiletask(Variant11.java:238)
+	at Test1234.negative_while_task(Test1234.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_while_task -->
+        <test-method status="PASS" signature="negative_while_task(int)[pri:0, instance:Test1234@643b1d11]" name="negative_while_task" duration-ms="0" started-at="2017-09-17T14:04:33Z" data-provider="negative_while_task_provider" finished-at="2017-09-17T14:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Wron input]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Wron input
+	at Variant11.whiletask(Variant11.java:238)
+	at Test1234.negative_while_task(Test1234.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negative_while_task -->
+        <test-method status="PASS" signature="while_task()[pri:0, instance:Test1234@643b1d11]" name="while_task" duration-ms="15" started-at="2017-09-17T14:04:33Z" finished-at="2017-09-17T14:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- while_task -->
+      </class> <!-- Test1234 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
